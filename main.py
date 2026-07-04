@@ -171,8 +171,12 @@ from xml.dom.minidom import Element
 # c = a % b
 # print(c)
 # 1.6 Exponentiation            **
-a = 5
-b = 3
-c = a ** b
-print(c)
+# a = 5
+# b = 3
+# c = a ** b
+# print(c)
 # 1.7 Floor division             //
+a = 17
+b = 3
+c = a // b
+print(c)
