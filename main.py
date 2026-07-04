@@ -74,14 +74,45 @@ from xml.dom.minidom import Element
 # Is this aslo a string ?                          s
 
 
-s = input("Enter the String: ")
+# s = input("Enter the String: ")
+# print(s[len(s)//2])
 
 
-print(s[len(s)//2])
+# Types of Type-Conversion
+# 1. Implicit Conversion - automatic type conversion
+# a = 5
+#
+# print(type(a))
+#
+# a = 67.8
+#
+# print(type(a))
+#
+# print(a)
 
 
 
+# 2. Explicit Conversion - manual type conversion
+# a = "5"
+#
+# b = int(a)
+# print(type(a))
+#
+# print(type(b))
+#
+# print(b)
 
+# Formatted Strings
+a = "John"
+
+b = 4
+
+# msg = a + " has " + str(b) + " cars."
+# msg = f"{a} has {b} cars."
+
+# print(f"{a} has {b} cars.")
+print(f"""{a} has 
+{b} cars.""")
 
 
 
