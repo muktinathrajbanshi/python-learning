@@ -161,10 +161,14 @@ from xml.dom.minidom import Element
 # c = a * b
 # print(c)
 # 1.4 Division                  /
-a = 10
-b = 5
-c = a / b
-print(c)
+# a = 10
+# b = 5
+# c = a / b
+# print(c)
 # 1.5 Modulus                   %
+a = 11
+b = 5
+c = a % b
+print(c)
 # 1.6 Exponentiation            **
 # 1.7 Floor division             //
