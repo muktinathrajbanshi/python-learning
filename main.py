@@ -5,6 +5,7 @@
 # print("""Hello
 # World
 # Hi There""")
+from xml.dom.minidom import Element
 
 # Types of Datatypes
 # 1. Numeric data types: integer, float, complex
@@ -41,8 +42,8 @@
 # 2.11 Many More...
 
 # 3. Sequence types : list, tuple, range.
-a = ["apple", "banana", "mango"]
-print(a)
+# a = ["apple", "banana", "mango"]
+# print(a)
 
 # 4. Binary types : bytes, bytearray, memoryview.
 
@@ -51,14 +52,32 @@ print(a)
 
 
 # 6. Boolean type : boolean
+# a = True
+# b = False
+
+# print(type(a))
+
 
 
 # 7. Set data types : set, frozenset.
 
 
 
+# 1-minute exericise
+# Display the middlemost character of a string given as input from the User, if no middle index is present, display the
+# character just after the middle index
 
 
+# Sample Input:                                sample output
+# Element                                          m
+# MuktinathTech                                    t
+# Is this aslo a string ?                          s
+
+
+s = input("Enter the String: ")
+
+
+print(s[len(s)//2])
 
 
 
