@@ -151,11 +151,15 @@ from xml.dom.minidom import Element
 # print(c)
 
 # 1.2 Subtraction               -
+# a = 10
+# b = 5
+# c = a - b
+# print(c)
+# 1.3 Multiplication            *
 a = 10
 b = 5
-c = a - b
+c = a * b
 print(c)
-# 1.3 Multiplication            *
 # 1.4 Division                  /
 # 1.5 Modulus                   %
 # 1.6 Exponentiation            **
