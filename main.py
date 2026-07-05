@@ -218,11 +218,16 @@ import math
 # print(math.floor(x))
 
 # 2.4 math.gcd()
-print(math.gcd(48, 60))
+# print(math.gcd(48, 60))
 
 # 3. Angle Conversions:
 # 3.1 math.degree()
+# import math
+# print(math.degrees(math.pi/6))
 # 3.2 math.radians()
+import math
+print(math.radians(30))
+print(math.pi/6)
 # 4. Trigonometric:
 # 4.1 math.sin()
 # 4.2 math.cos()
