@@ -204,11 +204,22 @@ import math
 
 # 2. Basic Maths:
 # 2.1 math.pow()
-print(math.pow(2, 3))
+# print(math.pow(2, 3))
 
 # 2.2 math.sqrt()
+# print(math.sqrt(25))
+
+# 2.3 math.ceil()
+# x = 25.64
+# print(math.ceil(x))
+
 # 2.3 math.floor()
+# x = 25.64
+# print(math.floor(x))
+
 # 2.4 math.gcd()
+print(math.gcd(48, 60))
+
 # 3. Angle Conversions:
 # 3.1 math.degree()
 # 3.2 math.radians()
