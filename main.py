@@ -5,6 +5,7 @@
 # print("""Hello
 # World
 # Hi There""")
+import math
 from xml.dom.minidom import Element
 
 # Types of Datatypes
@@ -188,8 +189,28 @@ from xml.dom.minidom import Element
 # () > ** > *,/ > % > +,-
 # PEMDAS/BOOMAS
 # print(2+2*2)
-print(4+6*(2+3-1)/4)
+# print(4+6*(2+3-1)/4)
 
+# Math Module
+# 1. Representation:
+# 1.1 math.pi
+# 1.2 math.e
+# 1.3 math.tau
+# 2. Basic Maths:
+# 2.1 math.pow()
+# 2.2 math.sqrt()
+# 2.3 math.floor()
+# 2.4 math.gcd()
+# 3. Angle Conversions:
+# 3.1 math.degree()
+# 3.2 math.radians()
+# 4. Trigonometric:
+# 4.1 math.sin()
+# 4.2 math.cos()
+# 4.3 math.tan()
+# 5. Logarithmic:
+# 5.1 math.log()
+# 5.2 math.log10()
 
 
 
