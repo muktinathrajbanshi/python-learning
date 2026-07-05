@@ -194,10 +194,18 @@ from xml.dom.minidom import Element
 # Math Module
 # 1. Representation:
 # 1.1 math.pi
+import math
+# print(math.pi)
 # 1.2 math.e
+# print(math.e)
+
 # 1.3 math.tau
+# print(math.tau)
+
 # 2. Basic Maths:
 # 2.1 math.pow()
+print(math.pow(2, 3))
+
 # 2.2 math.sqrt()
 # 2.3 math.floor()
 # 2.4 math.gcd()
@@ -211,6 +219,11 @@ from xml.dom.minidom import Element
 # 5. Logarithmic:
 # 5.1 math.log()
 # 5.2 math.log10()
+
+# x = -55.46
+
+# print(round(x))
+# print(abs(x))
 
 
 
