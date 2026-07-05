@@ -176,7 +176,29 @@ from xml.dom.minidom import Element
 # c = a ** b
 # print(c)
 # 1.7 Floor division             //
-a = 17
-b = 3
-c = a // b
-print(c)
+# a = 17
+# b = 3
+# c = a // b
+# print(c)
+
+# Operators Precedence
+# 2+2*2      2+2*2
+# 4*2        2+4
+# 8           6
+# () > ** > *,/ > % > +,-
+# PEMDAS/BOOMAS
+# print(2+2*2)
+print(4+6*(2+3-1)/4)
+
+
+
+
+
+
+
+
+
+
+
+
+
