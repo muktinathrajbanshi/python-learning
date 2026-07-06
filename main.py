@@ -225,13 +225,20 @@ import math
 # import math
 # print(math.degrees(math.pi/6))
 # 3.2 math.radians()
-import math
-print(math.radians(30))
-print(math.pi/6)
+# import math
+# print(math.radians(30))
+# print(math.pi/6)
 # 4. Trigonometric:
 # 4.1 math.sin()
+# import math
+# print(math.sin(math.pi/6))
+
 # 4.2 math.cos()
+# import math
+# print(math.cos(math.pi/6))
 # 4.3 math.tan()
+import math
+print(math.tan(math.pi/6))
 # 5. Logarithmic:
 # 5.1 math.log()
 # 5.2 math.log10()
