@@ -237,11 +237,16 @@ import math
 # import math
 # print(math.cos(math.pi/6))
 # 4.3 math.tan()
-import math
-print(math.tan(math.pi/6))
+# import math
+# print(math.tan(math.pi/4))
 # 5. Logarithmic:
 # 5.1 math.log()
+# import math
+# print(math.log(10))
+
 # 5.2 math.log10()
+import math
+print(math.log10(100000))
 
 # x = -55.46
 
