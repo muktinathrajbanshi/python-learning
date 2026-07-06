@@ -255,6 +255,19 @@ import math
 
 # Conditional Statements
 # 4.1 if Statements
+age = 22
+
+if age>18:
+    print("Yes You can vote")
+    print("Yes You can vote")
+    print("Yes You can vote")
+    print("Yes You can vote")
+
+if age<=18:
+    print("go study")
+    print("go study")
+print("go study")
+
 # 4.2 if-else Statements
 # 4.3 if-elif-else Statements
 # 4.4 Nested ladders
