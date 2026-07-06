@@ -245,13 +245,19 @@ import math
 # print(math.log(10))
 
 # 5.2 math.log10()
-import math
-print(math.log10(100000))
+# import math
+# print(math.log10(100000))
 
 # x = -55.46
 
 # print(round(x))
 # print(abs(x))
+
+# Conditional Statements
+# 4.1 if Statements
+# 4.2 if-else Statements
+# 4.3 if-elif-else Statements
+# 4.4 Nested ladders
 
 
 
