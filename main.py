@@ -269,6 +269,18 @@ import math
 # print("go study")
 
 # 4.2 if-else Statements
+# age = 18
+#
+# if age>18:
+#     print("Yes You can vote")
+#     print("Yes You can vote")
+#     print("Yes You can vote")
+#     print("Yes You can vote")
+#
+# else:
+#     print("go study")
+
+# 4.3 if-elif-else Statements
 age = 18
 
 if age>18:
@@ -284,8 +296,6 @@ elif age==18:
 
 else:
     print("go study")
-
-# 4.3 if-elif-else Statements
 # 4.4 Nested ladders
 
 
