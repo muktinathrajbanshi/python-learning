@@ -6,6 +6,7 @@
 # World
 # Hi There""")
 import math
+import token
 from xml.dom.minidom import Element
 
 # Types of Datatypes
@@ -195,6 +196,8 @@ from xml.dom.minidom import Element
 # 1. Representation:
 # 1.1 math.pi
 import math
+from xml.sax.handler import DTDHandler
+
 # print(math.pi)
 # 1.2 math.e
 # print(math.e)
@@ -297,26 +300,33 @@ import math
 # else:
 #     print("go study")
 # 4.4 Nested ladders
-age = 19
-citizenship = True
+# age = 19
+# citizenship = True
+#
+# if age>18:
+#     if citizenship:
+#         print("Yes You can vote")
+#         print("Yes You can vote")
+#         print("Yes You can vote")
+#         print("Yes You can vote")
+#     else:
+#         print("You are not a valid user")
+#
+# elif age==18:
+#     print("Go apply for id card")
+#     print("Go apply for id card")
+#     print("Go apply for id card")
+#
+# else:
+#     print("go study")
 
-if age>18:
-    if citizenship:
-        print("Yes You can vote")
-        print("Yes You can vote")
-        print("Yes You can vote")
-        print("Yes You can vote")
-    else:
-        print("You are not a valid user")
-
-elif age==18:
-    print("Go apply for id card")
-    print("Go apply for id card")
-    print("Go apply for id card")
-
-else:
-    print("go study")
-
+# Comparison Operators
+# 5.1 Equals
+# 5.2 Not equal
+# 5.3 Greater than
+# 5.4 Less than
+# 5.5 Greater than or equal to
+# 5.6 Less than or equal to
 
 
 
