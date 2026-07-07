@@ -322,11 +322,31 @@ from xml.sax.handler import DTDHandler
 
 # Comparison Operators
 # 5.1 Equals
+# x = 5
+# y = 7
+# print(x==y)
+
 # 5.2 Not equal
+# x = 5
+# y = 7
+# print(x!=y)
+
 # 5.3 Greater than
+# x = 5
+# y = 7
+# print(x>y)
 # 5.4 Less than
+x = 5
+y = 7
+print(x<y)
 # 5.5 Greater than or equal to
+# x = 5
+# y = 7
+# print(x>=y)
 # 5.6 Less than or equal to
+# x = 5
+# y = 7
+# print(x<=y)
 
 
 
