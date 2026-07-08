@@ -371,7 +371,13 @@ from xml.sax.handler import DTDHandler
 
 # Loops
 # 7.1 For Loops
+# nums = [54, 23, 876, 133, 45]
+# for i in nums:
+#     print(i)
 # 7.2 While Loops
+nums = [54, 23, 876, 133, 45]
+for i in nums:
+    print(i)
 # 7.3 Nested Loops
 
 
