@@ -336,9 +336,9 @@ from xml.sax.handler import DTDHandler
 # y = 7
 # print(x>y)
 # 5.4 Less than
-x = 5
-y = 7
-print(x<y)
+# x = 5
+# y = 7
+# print(x<y)
 # 5.5 Greater than or equal to
 # x = 5
 # y = 7
@@ -350,9 +350,24 @@ print(x<y)
 
 # Logical Operators
 # 6.1 And Operator
+# x=4
+# y=7
+# if x==5 and y==7:
+#     print("yes")
 # 6.2 Or Operator
+# x=4
+# y=7
+# if x==5 or y==7:
+#     print("yes")
 # 6.3 Not Operator
-
+# x=5
+# y=6
+# if x==5 and not y==7:
+#     print("yes")
+x=4
+y=6
+if x!=5:
+    print("yes")
 
 
 
