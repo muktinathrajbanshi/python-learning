@@ -375,9 +375,10 @@ from xml.sax.handler import DTDHandler
 # for i in nums:
 #     print(i)
 # 7.2 While Loops
-nums = [54, 23, 876, 133, 45]
-for i in nums:
-    print(i)
+x = 5
+while x < 10:
+    print("hi")
+    x=x+1
 # 7.3 Nested Loops
 
 
