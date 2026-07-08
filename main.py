@@ -348,6 +348,11 @@ print(x<y)
 # y = 7
 # print(x<=y)
 
+# Logical Operators
+# 6.1 And Operator
+# 6.2 Or Operator
+# 6.3 Not Operator
+
 
 
 
