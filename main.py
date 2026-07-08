@@ -364,10 +364,15 @@ from xml.sax.handler import DTDHandler
 # y=6
 # if x==5 and not y==7:
 #     print("yes")
-x=4
-y=6
-if x!=5:
-    print("yes")
+# x=4
+# y=6
+# if x!=5:
+#     print("yes")
+
+# Loops
+# 7.1 For Loops
+# 7.2 While Loops
+# 7.3 Nested Loops
 
 
 
