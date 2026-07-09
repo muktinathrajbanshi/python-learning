@@ -375,12 +375,16 @@ from xml.sax.handler import DTDHandler
 # for i in nums:
 #     print(i)
 # 7.2 While Loops
-x = 5
-while x < 10:
-    print("hi")
-    x=x+1
+# x = 5
+# while x < 10:
+#     print("hi")
+#     x=x+1
 # 7.3 Nested Loops
-
+x = 7
+while x < 10:
+    for i in range(x):
+        print(x)
+    x=x+1
 
 
 
