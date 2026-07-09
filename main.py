@@ -380,11 +380,23 @@ from xml.sax.handler import DTDHandler
 #     print("hi")
 #     x=x+1
 # 7.3 Nested Loops
+# x = 7
+# while x < 10:
+#     for i in range(x):
+#         print(x)
+#     x=x+1
+
+# Loop Control
+# 7.1.1 Break
 x = 7
 while x < 10:
     for i in range(x):
         print(x)
+    break
     x=x+1
+    print("Terminated")
+# 7.1.2 Continue
+# 7.1.3 Pass
 
 
 
