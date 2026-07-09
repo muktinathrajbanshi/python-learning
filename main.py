@@ -396,14 +396,18 @@ from xml.sax.handler import DTDHandler
 #     x=x+1
 #     print("Terminated")
 # 7.1.2 Continue
+# for i in range(10):
+#     if i==5:
+#         continue
+#         print("hi there")
+#     else:
+#         print(i)
+# 7.1.3 Pass
 for i in range(10):
     if i==5:
-        continue
-        print("hi there")
+        pass
     else:
         print(i)
-# 7.1.3 Pass
-
 
 
 
