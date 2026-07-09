@@ -388,14 +388,20 @@ from xml.sax.handler import DTDHandler
 
 # Loop Control
 # 7.1.1 Break
-x = 7
-while x < 10:
-    for i in range(x):
-        print(x)
-    break
-    x=x+1
-    print("Terminated")
+# x = 7
+# while x < 10:
+#     for i in range(x):
+#         print(x)
+#     break
+#     x=x+1
+#     print("Terminated")
 # 7.1.2 Continue
+for i in range(10):
+    if i==5:
+        continue
+        print("hi there")
+    else:
+        print(i)
 # 7.1.3 Pass
 
 
