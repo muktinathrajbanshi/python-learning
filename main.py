@@ -420,13 +420,17 @@ from xml.sax.handler import DTDHandler
 # 1 2
 # 1
 
-n = int(input("Enter any number: "))
+# n = int(input("Enter any number: "))
+#
+# for i in range(n):
+#     for j in range(1, n-i+1):
+#         print(j, end=" ")
+#     print("")
 
-for i in range(n):
-    for j in range(1, n-i+1):
-        print(j, end=" ")
-    print("")
+# Lists
+list = [5, 5.7, "Str", True, ["a", "b", "c"]]
 
+print(list[4][1])
 
 
 
