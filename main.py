@@ -428,9 +428,23 @@ from xml.sax.handler import DTDHandler
 #     print("")
 
 # Lists
-list = [5, 5.7, "Str", True, ["a", "b", "c"]]
+# list = [5, 5.7, "Str", True, ["a", "b", "c"]]
+#
+# print(list[4][1])
 
-print(list[4][1])
+# 8.1 2D Lists
+list = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+print(list[:2])
+
+# 8.2 Range
+# 8.3 Sets
+# 8.4 Tuples
+
 
 
 
