@@ -439,7 +439,10 @@ list = [
     [7,8,9]
 ]
 
-print(list[:2])
+# print(list[-2:-1])
+# print(list[1][1])
+# print(list)
+print(list[2][0])
 
 # 8.2 Range
 # 8.3 Sets
