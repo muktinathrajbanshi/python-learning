@@ -451,19 +451,30 @@ list = [
 # range(5)
 
 # 8.3 Sets
-set1 = {1, 2, 3}
+# set1 = {1, 2, 3, 4, 5}
+# set2 = {3, 4, 5, 6}
 
+# set1.update(set2)
 # print(set1)
 # print(set1[0])
 # set1.add(8)
 # set1.add(5)
 # set1.add(0)
-set1.remove(2)
+# set1.remove(2)
 
-print(set1)
+# print(set1)
 
 
 # 8.4 Tuples
+tpl1 = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+tpl2 = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j")
+
+tpl = tpl1 + tpl2
+# print(tpl)
+# print(tpl[0])
+# print(tpl[:5])
+print(tpl[5:])
+
 
 
 
