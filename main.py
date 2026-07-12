@@ -477,9 +477,22 @@ list = [
 
 # List Methods:
 # append(): Adds an element at the end of the list
+# ls = [1,2,3,4,1,2,3,2,2]
+
 # clear(): Removes all the elements from the list
+
 # count(): Returns the number of elements with the specified value
+# ls = [1,2,3,4,1,2,3,2,2]
+# print(ls.count(1))
+
 # extend(): Add the elements of a list (or any iterable), to the end of the current list
+ls = [1,2,3,4,1,2,3,2,2]
+ls1 = [5, 9, 6, 3]
+ls.extend(ls1)
+
+print(ls)
+
+
 # index(): Returns the index of the first element with the specified value
 # insert(): Adds an element at the specified position
 # pop(): Removes the element at the specified position
