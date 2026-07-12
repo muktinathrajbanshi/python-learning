@@ -442,10 +442,27 @@ list = [
 # print(list[-2:-1])
 # print(list[1][1])
 # print(list)
-print(list[2][0])
+# print(list[2][0])
+# list[2][0] = 143
+# print(list)
 
 # 8.2 Range
+# range(5, 10)
+# range(5)
+
 # 8.3 Sets
+set1 = {1, 2, 3}
+
+# print(set1)
+# print(set1[0])
+# set1.add(8)
+# set1.add(5)
+# set1.add(0)
+set1.remove(2)
+
+print(set1)
+
+
 # 8.4 Tuples
 
 
