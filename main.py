@@ -466,15 +466,26 @@ list = [
 
 
 # 8.4 Tuples
-tpl1 = (1, 2, 3, 4, 5, 6, 7, 8, 9)
-tpl2 = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j")
+# tpl1 = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+# tpl2 = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j")
 
-tpl = tpl1 + tpl2
+# tpl = tpl1 + tpl2
 # print(tpl)
 # print(tpl[0])
 # print(tpl[:5])
-print(tpl[5:])
+# print(tpl[5:])
 
+# List Methods:
+# append(): Adds an element at the end of the list
+# clear(): Removes all the elements from the list
+# count(): Returns the number of elements with the specified value
+# extend(): Add the elements of a list (or any iterable), to the end of the current list
+# index(): Returns the index of the first element with the specified value
+# insert(): Adds an element at the specified position
+# pop(): Removes the element at the specified position
+# remove(): Removes the first item with the specified value
+# reverse(): Reverses the order of the list
+# sort(): Sorts the list
 
 
 
