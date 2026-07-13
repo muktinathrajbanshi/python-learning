@@ -486,18 +486,31 @@ list = [
 # print(ls.count(1))
 
 # extend(): Add the elements of a list (or any iterable), to the end of the current list
-ls = [1,2,3,4,1,2,3,2,2]
-ls1 = [5, 9, 6, 3]
-ls.extend(ls1)
+# ls = [1,2,3,4,1,2, 4, 3,2,4,2,4]
+# ls1 = [5, 9, 6, 3]
+# ls.extend(ls1)
+#
+# print(ls.index(4))
 
-print(ls)
 
 
 # index(): Returns the index of the first element with the specified value
+# ls = [1,2,3,4,1,2, 4, 3,2,4,2,4]
+# ls1 = [5, 9, 6, 3]
+# ls.extend(ls1)
+#
+# print(ls.index(4))
 # insert(): Adds an element at the specified position
 # pop(): Removes the element at the specified position
 # remove(): Removes the first item with the specified value
 # reverse(): Reverses the order of the list
+ls = [1,2,3,4,1,2, 4, 3,2,4,2,4]
+ls1 = [5, 9, 6, 3]
+ls.extend(ls1)
+
+print(ls)
+ls.reverse()
+print(ls)
 # sort(): Sorts the list
 
 
