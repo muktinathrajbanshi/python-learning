@@ -503,24 +503,34 @@ list = [
 # insert(): Adds an element at the specified position
 # pop(): Removes the element at the specified position
 # remove(): Removes the first item with the specified value
+
 # reverse(): Reverses the order of the list
 # ls = [1,2,3,4,1,2, 4, 3,2,4,2,4]
 # ls1 = [5, 9, 6, 3]
 # ls.extend(ls1)
-#
 # print(ls)
 # ls.reverse()
 # print(ls)
+
 # sort(): Sorts the list
-ls = [1,2,3,4,1,2, 4, 3,2,4,2,4]
-ls1 = [5, 9, 6, 3]
-ls.extend(ls1)
+# ls = [1,2,3,4,1,2, 4, 3,2,4,2,4]
+# ls1 = [5, 9, 6, 3]
+# ls.extend(ls1)
+# print(ls)
+# ls.sort()
+# print(ls)
 
-print(ls)
-ls.sort()
-print(ls)
+# Unpacking Lists
+ls = ["apple", "banana", "cherry", "orange"]
 
+# fr1 = ls[0]
+# fr2 = ls[1]
 
+# apple, banana, cherry, orange = ls
+a, *others = ls
+
+print(a)
+print(others)
 
 
 
