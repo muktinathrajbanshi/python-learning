@@ -521,16 +521,26 @@ list = [
 # print(ls)
 
 # Unpacking Lists
-ls = ["apple", "banana", "cherry", "orange"]
+# ls = ["apple", "banana", "cherry", "orange"]
 
 # fr1 = ls[0]
 # fr2 = ls[1]
 
 # apple, banana, cherry, orange = ls
-a, *others = ls
+# a, *others = ls
+#
+# print(a)
+# print(others)
 
-print(a)
-print(others)
+# Dictionaries
+car = {
+    "name" : "Ford",
+    "model" : "Mustang",
+    "milage" : 12
+}
 
-
-
+# print(car["name"])
+car["model"] = "Mustang GT 500"
+del car["milage"]
+# print(car.get("name"))
+print(car)
