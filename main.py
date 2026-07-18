@@ -572,21 +572,27 @@ list = [
 
 # Functions in Python is Started:
 # x = 0
-def func():
+# def func():
     # x=100
     # print(x)
     # return x
 
-    print("I am so tired")
+    # print("I am so tired")
 
-# x = func()
-func()
-print("World")
-func()
-x=100
-func()
-x/=10
-func()
-print(x)
+# # x = func()
+# func()
+# print("World")
+# func()
+# x=100
+# func()
+# x/=10
+# func()
+# print(x)
 
 # print(x)
+
+# Parameters :
+def func(a):
+    return a*10
+
+print(func(3))
