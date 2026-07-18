@@ -547,10 +547,17 @@ car = {
 
 # Unpack Dictionaries
 # 1. Assigning variables with keys
-a, b, c = car.values()
 
+
+
+# print(type(b))
 # print(c)
-print(b)
+# print(b)
 
 # 2. Assigning variables with values
+# a, b, c = car.values()
+
 # 3. Assigning variables with key-Value pairs
+# a, b, c = car.items()
+
+a, *b = car.items()
