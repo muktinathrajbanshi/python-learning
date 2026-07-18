@@ -571,11 +571,15 @@ list = [
 # print(b)
 
 # Functions in Python is Started:
-x = 0
+# x = 0
 def func():
-    x=100
-    print(x)
-    return x
+    # x=100
+    # print(x)
+    # return x
 
-x = func()
+    print("I am so tired")
+
+# x = func()
+func()
+
 print(x)
