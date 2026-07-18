@@ -532,12 +532,12 @@ list = [
 # print(a)
 # print(others)
 
-# Dictionaries
-car = {
-    "name" : "Ford",
-    "model" : "Mustang",
-    "milage" : 12
-}
+# # Dictionaries
+# car = {
+#     "name" : "Ford",
+#     "model" : "Mustang",
+#     "milage" : 12
+# }
 
 # print(car["name"])
 # car["model"] = "Mustang GT 500"
@@ -560,4 +560,12 @@ car = {
 # 3. Assigning variables with key-Value pairs
 # a, b, c = car.items()
 
+
+car = {
+    "name" : "Ford",
+    "model" : "Mustang",
+    "milage" : 12
+}
+
 a, *b = car.items()
+print(b)
