@@ -575,6 +575,7 @@ x = 0
 def func():
     x=100
     print(x)
+    return x
 
-func()
+x = func()
 print(x)
