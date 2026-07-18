@@ -561,11 +561,20 @@ list = [
 # a, b, c = car.items()
 
 
-car = {
-    "name" : "Ford",
-    "model" : "Mustang",
-    "milage" : 12
-}
+# car = {
+#     "name" : "Ford",
+#     "model" : "Mustang",
+#     "milage" : 12
+# }
+#
+# a, *b = car.items()
+# print(b)
 
-a, *b = car.items()
-print(b)
+# Functions in Python is Started:
+x = 0
+def func():
+    x=100
+    print(x)
+
+func()
+print(x)
