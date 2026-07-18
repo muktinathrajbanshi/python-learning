@@ -581,5 +581,12 @@ def func():
 
 # x = func()
 func()
-
+print("World")
+func()
+x=100
+func()
+x/=10
+func()
 print(x)
+
+# print(x)
