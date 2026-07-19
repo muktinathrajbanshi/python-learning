@@ -597,15 +597,23 @@ list = [
 #
 # print(mul(3, 3))
 
-def mul(a, b, c=30):
-    a = a+3
-    b = b-2
-    c = c+7
-    return a*b*c
+# def mul(a, b, c=30):
+#     a = a+3
+#     b = b-2
+#     c = c+7
+#     return a*b*c
+#
+# # c = mul(7, 9)
+# c = mul(7, 9, 2)
+#
+#
+# # print(mul(7, 9))
+# print(c)
 
-# c = mul(7, 9)
-c = mul(7, 9, 2)
+def quo(a, b):
+    return a / b
 
+x = int(input("Enter Number 1: "))
+y = int(input("Enter Number 2: "))
 
-# print(mul(7, 9))
-print(c)
+print(quo(x,y))
