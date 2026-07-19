@@ -602,4 +602,9 @@ def mul(a, b):
     b = b-2
     return a*b
 
-print(mul(7, 9))
+# c = mul(7, 9)
+c = mul(7)
+
+
+# print(mul(7, 9))
+print(c)
