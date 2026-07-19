@@ -610,10 +610,15 @@ list = [
 # # print(mul(7, 9))
 # print(c)
 
-def quo(a, b):
-    return a / b
+try:
 
-x = int(input("Enter Number 1: "))
-y = int(input("Enter Number 2: "))
+    def quo(a, b):
+        return a / b
 
-print(quo(x,y))
+    x = int(input("Enter Number 1: "))
+    y = int(input("Enter Number 2: "))
+
+    print(quo(x,y))
+
+except ValueError:
+    print("Invalid Input")
