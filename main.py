@@ -597,7 +597,7 @@ list = [
 #
 # print(mul(3, 3))
 
-def mul(a, b):
+def mul(a, b=10):
     a = a+3
     b = b-2
     return a*b
