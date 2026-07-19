@@ -622,3 +622,6 @@ try:
 
 except ValueError:
     print("Invalid Input")
+
+except ZeroDivisionError:
+    print("Can not divide by zero")
