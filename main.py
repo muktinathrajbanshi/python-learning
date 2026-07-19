@@ -623,8 +623,9 @@ try:
 except ValueError:
     print("Invalid Input")
 
-# except ZeroDivisionError:
-#     print("Can not divide by zero")
+except ZeroDivisionError:
+    print("Cannot Divide by Zero")
+    print(f"Answer is: {x}")
 
-except:
-    print("Something Went Wrong")
+# except:
+#     print("Something Went Wrong")
