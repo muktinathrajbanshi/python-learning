@@ -592,7 +592,14 @@ list = [
 # print(x)
 
 # Parameters :
+# def mul(a, b):
+#     return a*b
+#
+# print(mul(3, 3))
+
 def mul(a, b):
+    a = a+3
+    b = b-2
     return a*b
 
-print(mul(3, 3))
+print(mul(7, 9))
